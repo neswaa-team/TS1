@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { BsChatLeftTextFill, BsGearFill } from 'react-icons/bs'
+import { FaStore, FaCar } from 'react-icons/fa'
 
 import LogoBox from '@/components/LogoBox'
 import CollapseMenu from './CollapseMenu'
@@ -22,6 +23,18 @@ const TopHeader = () => {
           <li className="nav-item ms-2">
             <Link className="nav-link bg-light icon-md btn btn-light p-0" to="/messaging">
               <BsChatLeftTextFill size={15} />
+            </Link>
+          </li>
+
+          <li className="nav-item ms-2">
+            <Link className="nav-link bg-light icon-md btn btn-light p-0" to="/store">
+              <FaStore size={15} />
+            </Link>
+          </li>
+
+          <li className="nav-item ms-2">
+            <Link className="nav-link bg-light icon-md btn btn-light p-0" to="/transport">
+              <FaCar size={15} />
             </Link>
           </li>
 
