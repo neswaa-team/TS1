@@ -25,7 +25,7 @@ const TopHeader = () => {
             </Link>
           </li>
 
-          <li className="nav-item ms-2">
+          <li className="nav-item ms-2" style={{ display: "none" }}>
             <Link className="nav-link bg-light icon-md btn btn-light p-0" to="/settings/account">
               <BsGearFill size={15} />
             </Link>
