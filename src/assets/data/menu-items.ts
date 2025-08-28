@@ -56,6 +56,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
     label: 'Pages',
     isTitle: true,
     disabled: true,
+    hidden: true,
     children: [
       {
         key: 'pages-albums',

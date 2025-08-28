@@ -7,6 +7,7 @@ export type MenuItemType = {
   label?: string
   isTitle?: boolean
   isDivider?: boolean
+  hidden?: boolean
   url?: string
   badge?: {
     text: string

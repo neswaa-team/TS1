@@ -100,7 +100,7 @@ const AppMenu = () => {
 
   return (
     <ul className={clsx('navbar-nav navbar-nav-scroll ms-auto')}>
-      {(menuItems ?? []).map((item, idx) => {
+      {(menuItems ?? []).filter(item => !item.hidden && !item.disabled).map((item, idx) => {
         return (
           <Fragment key={item.key + idx}>
             {item.children ? (
