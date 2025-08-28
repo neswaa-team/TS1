@@ -216,6 +216,7 @@ export const APP_MENU_ITEMS: MenuItemType[] = [
         label: 'Settings',
         url: '/settings/account',
         parentKey: 'accounts',
+        hidden: true,
       },
       {
         key: 'acc-notifications',
