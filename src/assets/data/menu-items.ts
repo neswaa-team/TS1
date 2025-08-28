@@ -52,69 +52,6 @@ export const PROFILE_MENU_ITEMS: MenuItemType[] = [
 
 export const APP_MENU_ITEMS: MenuItemType[] = [
   {
-    key: 'demos',
-    label: 'Demo',
-    isTitle: true,
-    children: [
-      {
-        key: 'home-default',
-        label: 'Home Default',
-        url: '/feed/home',
-        parentKey: 'demos',
-      },
-      {
-        key: 'home-classic',
-        label: 'Home Classic',
-        url: '/classic',
-        disabled: true,
-        parentKey: 'demos',
-      },
-      {
-        key: 'home-post',
-        label: 'Home Post',
-        url: '/posts',
-        parentKey: 'demos',
-      },
-      {
-        key: 'home-video',
-        label: 'Home Video',
-        url: '/feed/videos',
-        parentKey: 'demos',
-      },
-      {
-        key: 'home-event',
-        label: 'Home Event',
-        url: '/event',
-        parentKey: 'demos',
-      },
-      {
-        key: 'landing-page',
-        label: 'Landing Page',
-        url: '/landing',
-        parentKey: 'demos',
-      },
-      {
-        key: 'app-download',
-        label: 'App Download',
-        url: '/download',
-        parentKey: 'demos',
-      },
-      {
-        key: 'demo-divider-1',
-        isDivider: true,
-        parentKey: 'demos',
-      },
-      {
-        key: 'buy-social',
-        label: 'Buy Social!',
-        target: '_blank',
-        icon: BsCloudDownloadFill,
-        url: '',
-        parentKey: 'demos',
-      },
-    ],
-  },
-  {
     key: 'pages',
     label: 'Pages',
     isTitle: true,
