@@ -33,6 +33,12 @@ const TopHeader = () => {
 
           <NotificationDropdown />
 
+          <li className="nav-item ms-2" style={{ display: "none" }}>
+            <Link className="nav-link bg-light icon-md btn btn-light p-0" to="/profile/connections">
+              My Network
+            </Link>
+          </li>
+
           <ProfileDropdown />
         </ul>
       </div>
