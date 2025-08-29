@@ -1,1 +1,39 @@
-(Content omitted)
+{
+  "header": {
+    "search": "ابحث…",
+    "messages": "الرسائل",
+    "notifications": "الإشعارات",
+    "account": "الحساب",
+    "store": "المتجر",
+    "transport": "النقل",
+    "language": "اللغة"
+  },
+  "home": {
+    "home": "الرئيسية",
+    "stories": "القصص",
+    "whats_on_mind": "شاركي أفكارك…"
+  },
+  "profile": {
+    "view_profile": "عرض الملف الشخصي",
+    "settings_privacy": "الإعدادات والخصوصية",
+    "support": "الدعم",
+    "documentation": "التوثيق",
+    "sign_out": "تسجيل الخروج",
+    "mode": "الوضع",
+    "light": "فاتح",
+    "dark": "داكن",
+    "auto": "تلقائي"
+  },
+  "followers": {
+    "who_to_follow": "من تتابع",
+    "view_more": "عرض المزيد",
+    "add_friend": "إضافة صديق"
+  },
+  "stories": {
+    "post_story": "انشر قصة"
+  },
+  "news": {
+    "todays_news": "أخبار اليوم",
+    "view_all_latest_news": "عرض جميع الأخبار الأخيرة"
+  }
+}

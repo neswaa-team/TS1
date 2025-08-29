@@ -14,19 +14,26 @@
     "whats_on_mind": "Ini ayen ttwalin…"
   },
   "profile": {
-    "my_profile": "Amaɣnu-inu",
-    "settings": "Iɣewwaṛen",
-    "logout": "Ffeɣ"
+    "view_profile": "Ẓer amaɣnu",
+    "settings_privacy": "Iɣewwaṛen & Tabaḍnit",
+    "support": "Tallalt",
+    "documentation": "Tasemlit",
+    "sign_out": "Ffeɣ",
+    "mode": "Anaw",
+    "light": "Aceɛlal",
+    "dark": "Aberkan",
+    "auto": "Awurman"
   },
   "followers": {
-    "title": "Imeḍfaṛen",
-    "see_all": "Ẓer akk",
-    "follow": "Ḍfer",
-    "following": "Yettwaḍfar"
+    "who_to_follow": "Anwa ara tḍefṛeḍ",
+    "view_more": "Ẓer ugar",
+    "add_friend": "Rnu amdakkel"
   },
   "stories": {
-    "title": "Timmucin",
-    "add_story": "Rnu tamacahutt",
-    "your_story": "Tamacahutt-ik"
+    "post_story": "Sufeɣ tamacahutt"
+  },
+  "news": {
+    "todays_news": "Isallen n wass-a",
+    "view_all_latest_news": "Ẓer akk isallen imaynuten"
   }
 }

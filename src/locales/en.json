@@ -1,1 +1,39 @@
-(Content omitted)
+{
+  "header": {
+    "search": "Search…",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "account": "Account",
+    "store": "Store",
+    "transport": "Transport",
+    "language": "Language"
+  },
+  "home": {
+    "home": "Home",
+    "stories": "Stories",
+    "whats_on_mind": "Share your thoughts…"
+  },
+  "profile": {
+    "view_profile": "View profile",
+    "settings_privacy": "Settings & Privacy",
+    "support": "Support",
+    "documentation": "Documentation",
+    "sign_out": "Sign Out",
+    "mode": "Mode",
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "followers": {
+    "who_to_follow": "Who to follow",
+    "view_more": "View more",
+    "add_friend": "Add friend"
+  },
+  "stories": {
+    "post_story": "Post a Story"
+  },
+  "news": {
+    "todays_news": "Today's news",
+    "view_all_latest_news": "View all latest news"
+  }
+}

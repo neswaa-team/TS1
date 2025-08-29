@@ -1,1 +1,39 @@
-(Content omitted)
+{
+  "header": {
+    "search": "Rechercher…",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "account": "Compte",
+    "store": "Boutique",
+    "transport": "Transport",
+    "language": "Langue"
+  },
+  "home": {
+    "home": "Accueil",
+    "stories": "Stories",
+    "whats_on_mind": "Quoi de neuf…"
+  },
+  "profile": {
+    "view_profile": "Voir le profil",
+    "settings_privacy": "Paramètres et confidentialité",
+    "support": "Support",
+    "documentation": "Documentation",
+    "sign_out": "Se déconnecter",
+    "mode": "Mode",
+    "light": "Clair",
+    "dark": "Sombre",
+    "auto": "Auto"
+  },
+  "followers": {
+    "who_to_follow": "Qui suivre",
+    "view_more": "Voir plus",
+    "add_friend": "Ajouter un ami"
+  },
+  "stories": {
+    "post_story": "Publier une story"
+  },
+  "news": {
+    "todays_news": "Actualités du jour",
+    "view_all_latest_news": "Voir toutes les dernières actualités"
+  }
+}
