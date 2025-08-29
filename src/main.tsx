@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { basePath } from "./context/constants";
 import "./i18n";
+import "./i18n";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <StrictMode>

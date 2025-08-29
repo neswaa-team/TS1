@@ -12,28 +12,5 @@
     "home": "Agejdur",
     "stories": "Timmucin",
     "whats_on_mind": "Ini ayen ttwalin…"
-  },
-  "profile": {
-    "view_profile": "Ẓer amaɣnu",
-    "settings_privacy": "Iɣewwaṛen & Tabaḍnit",
-    "support": "Tallalt",
-    "documentation": "Tasemlit",
-    "sign_out": "Ffeɣ",
-    "mode": "Anaw",
-    "light": "Aceɛlal",
-    "dark": "Aberkan",
-    "auto": "Awurman"
-  },
-  "followers": {
-    "who_to_follow": "Anwa ara tḍefṛeḍ",
-    "view_more": "Ẓer ugar",
-    "add_friend": "Rnu amdakkel"
-  },
-  "stories": {
-    "post_story": "Sufeɣ tamacahutt"
-  },
-  "news": {
-    "todays_news": "Isallen n wass-a",
-    "view_all_latest_news": "Ẓer akk isallen imaynuten"
   }
 }
