@@ -1,2 +1,63 @@
-{ "header":{"search":"Rechercher…","messages":"Messages","notifications":"Notifications","account":"Compte","store":"Boutique","transport":"Transport","language":"Langue"},
-  "home":{"home":"Accueil","stories":"Stories","whats_on_mind":"Quoi de neuf…"} }
+{
+  "header": {
+    "search": "Rechercher…",
+    "messages": "Messages",
+    "notifications": "Notifications",
+    "account": "Compte",
+    "store": "Boutique",
+    "transport": "Transport",
+    "language": "Langue",
+    "view_profile": "Voir le profil",
+    "settings_privacy": "Paramètres et confidentialité",
+    "support": "Support",
+    "documentation": "Documentation",
+    "sign_out": "Se déconnecter",
+    "mode": "Mode"
+  },
+  "home": {
+    "home": "Accueil",
+    "stories": "Stories",
+    "whats_on_mind": "Quoi de neuf…",
+    "post_story": "Publier une story",
+    "add_friend": "Ajouter un ami",
+    "see_all": "Voir tout",
+    "people_you_may_know": "Personnes que vous pourriez connaître",
+    "who_to_follow": "Qui suivre",
+    "view_more": "Voir plus",
+    "todays_news": "Actualités du jour",
+    "view_all_latest_news": "Voir toutes les dernières actualités"
+  },
+  "shop": {
+    "shop": "Boutique",
+    "products": "Produits",
+    "categories": "Catégories",
+    "brands": "Marques",
+    "deals": "Offres"
+  },
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "buy_now": "Acheter maintenant",
+    "description": "Description",
+    "reviews": "Avis",
+    "specifications": "Spécifications"
+  },
+  "cart": {
+    "shopping_cart": "Panier d'achat",
+    "total": "Total",
+    "checkout": "Commander",
+    "continue_shopping": "Continuer les achats"
+  },
+  "checkout": {
+    "checkout": "Commander",
+    "billing_address": "Adresse de facturation",
+    "payment_method": "Méthode de paiement",
+    "place_order": "Passer la commande"
+  },
+  "vendor": {
+    "vendor_dashboard": "Tableau de bord vendeur",
+    "my_products": "Mes produits",
+    "orders": "Commandes",
+    "earnings": "Gains",
+    "add_product": "Ajouter un produit"
+  }
+}
