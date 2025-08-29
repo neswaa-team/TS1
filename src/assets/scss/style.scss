@@ -60,12 +60,22 @@
 // In this scss you can write your scss/css
 @import "user";
 
-// Language switcher styles
-.lang-switcher{
+.lang-menu{position:relative}
+.lang-btn{padding:.35rem .55rem;border:1px solid #e7e7e7;border-radius:8px;background:#fff;cursor:pointer}
+.lang-dropdown{
+  position:absolute; inset-block-start:100%; inset-inline-end:0;
+  background:#fff; border:1px solid #e7e7e7; border-radius:10px;
+  padding:.25rem 0; min-width:150px; box-shadow:0 8px 24px rgba(0,0,0,.08); z-index:50;
+}
+.lang-dropdown li{padding:.5rem .75rem; cursor:pointer; white-space:nowrap}
+.lang-dropdown li:hover{background:#f6f6f6}
+
+// Language switcher styles (old, will be removed)
+.lang-switcher {
   display: flex;
   gap: 0.5rem;
 }
-.lang-switcher button{
+.lang-switcher button {
   padding: 0.25rem 0.5rem;
   border: 1px solid #eee;
   border-radius: 6px;
@@ -73,6 +83,6 @@
   cursor: pointer;
   font-size: 0.75rem;
 }
-.lang-switcher button:hover{
+.lang-switcher button:hover {
   background: #f6f6f6;
 }
