@@ -1,0 +1,88 @@
+
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap";
+// Bootstrap variables
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Theme variables
+@import "variables";
+@import "variables-dark";
+
+// User variables
+@import "user-variables";
+
+// Bootstrap core
+@import "bootstrap/scss/bootstrap";
+
+// Extended bootstrap utilities
+@import "custom/utilities";
+@import "bootstrap/scss/utilities/api";
+
+@import "tiny-slider/dist/tiny-slider.css";
+@import 'simplebar-react/dist/simplebar.min.css';
+
+// Extended bootstrap components
+@import "custom/accordion";
+@import "custom/breadcrumb";
+@import "custom/buttons";
+@import "custom/card";
+@import "custom/dropdowns";
+@import "custom/list-group";
+@import "custom/nav";
+@import "custom/navbar";
+@import "custom/pagination";
+@import "custom/reboot";
+@import "custom/type";
+@import "custom/badge";
+@import "custom/offcanvas";
+@import "custom/toasts";
+
+// Theme components 
+@import "components/general";
+@import "components/avatar";
+@import "components/tiny-slider";
+@import "components/glightbox";
+@import "components/choices";
+@import "components/dropzone";
+@import "components/overlayscrollbars";
+@import "components/mockup";
+@import "components/flatpickr";
+@import "components/toastify";
+@import "components/zuck";
+@import "components/preloader";
+
+// Theme dark
+@import "dark-mode";
+
+// React's Custom
+@import "custom-react";
+
+// In this scss you can write your scss/css
+@import "user";
+
+.lang-menu{position:relative}
+.lang-btn{padding:.35rem .55rem;border:1px solid #e7e7e7;border-radius:8px;background:#fff;cursor:pointer}
+.lang-dropdown{
+  position:absolute; inset-block-start:100%; inset-inline-end:0;
+  background:#fff; border:1px solid #e7e7e7; border-radius:10px;
+  padding:.25rem 0; min-width:150px; box-shadow:0 8px 24px rgba(0,0,0,.08); z-index:50;
+}
+.lang-dropdown li{padding:.5rem .75rem; cursor:pointer; white-space:nowrap}
+.lang-dropdown li:hover{background:#f6f6f6}
+
+// Language switcher styles (old, will be removed)
+.lang-switcher {
+  display: flex;
+  gap: 0.5rem;
+}
+.lang-switcher button {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+.lang-switcher button:hover {
+  background: #f6f6f6;
+}
